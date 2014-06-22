@@ -110,8 +110,10 @@ The names of the variables are listed below
 
 ### Transformations using R software
 
-In order to obtain the final data set subsetting and reshaping (using reshape2 package) has been performed to the orgininal data set. 
+Several transformations have been performed in order to obtain the final data set. subsetting and reshaping (using reshape2 package) has been performed. 
 
 Concretely, the means for each Subject and activity were computing using melt and dcast functions
+
+Train and test original data sets were placed in separated files. They were combined using rbind function
 
 mean and sd variables were filtered using regular expressions in R. The variables names were formatting to a easily reading format using the same procedure
