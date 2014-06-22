@@ -2,7 +2,7 @@
 
 The orginial data from the project monitored manually 30 subjects and six different kinds of activities as the gyroscope and the accelerometer were registering different kinds of signals
 
-The data set presented in dataset.csv consists in a tidy data set with 180 records and 68 columns extracted from 
+The data set presented in dataset.txt consists in a tidy data set with 180 records and 68 columns extracted from 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
