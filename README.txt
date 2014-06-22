@@ -25,6 +25,14 @@ The data presented in this data set has been transformed significally from the o
 All these transformations have been carried out using R software
 
 
+HOW TO READ THE DATA IN R
+=========================
+
+The data was created with the write.table R function using the "," character as separactor (csv style)
+
+The data can be read using read.csv function
+
+
 The Repo contains the following files
 ======================================
 
