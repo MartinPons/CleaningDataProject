@@ -25,12 +25,12 @@ The original units of measure of the original variables can be read in the READM
 
 ### Variables in the data set
 
-There are four types of variables
+There are five types of variables
 
-* Subject and Activity. Categorical variables
 
-** Subject: labeled from 1 to 30
-** Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
+* Subject: labeled from 1 to 30
+
+*Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
 
 * Three Axial Raw signals: These include body acceleration and gravity acceleration signals
 
