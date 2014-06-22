@@ -36,8 +36,10 @@ The data can be read using read.csv function
 The Repo contains the following files
 ======================================
 
+- README.txt
+
 - run_analysis.R: R script containing all the transformations carried out in the data in order to obtain the final data set presented in the dataset.csv
 
-- dataset.csv: the transformed data set with the features mentioned above
+- dataset.txt: the transformed data set with the features mentioned above
 
 - CodeBook.md: a codebook descibing the variables, the data and the transformations performed
