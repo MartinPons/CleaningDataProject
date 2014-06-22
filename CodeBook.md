@@ -1,6 +1,6 @@
 ## Gyroscope and accelerometer means and standar deviations dataset
 
-The orginial data contains measures different measures from a gyroscope and accelerometer.
+The orginial data contains different measures from a gyroscope and accelerometer, from monitoring subjects permorming different activities
 
 The data set presented in dataset.csv consists in a tidy data set with 180 records and 6o 8 columns extracted from 
 
@@ -11,7 +11,16 @@ The original Data comes a project to predict human activity based on acceleromet
 
 The project monitored manually 30 subjects and six different kinds of activities as the gyroscope and the accelerometer were registrin different kinds of signals
 
-The variables used in this data set are the means and standar deviations related measures for each subject and activity
+
+### Units of measure
+
+The variables used in this data set are the means and standar deviations related measures for each subject and activity. The rest of the variables were dropped
+
+The original observations have been aggregated for each Subject and Activity using means
+
+The original units of measure of the original variables can be read in the README.txt file from the original data set
+
+	"...Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data."
 
 
 ### Variables in the data set
@@ -20,8 +29,8 @@ There are four types of variables
 
 * Subject and Activity. Categorical variables
 
-	Subject: labeled from 1 to 30
-	Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
+	** Subject: labeled from 1 to 30
+	** Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
 
 * Three Axial Raw signals: These include body acceleration and gravity acceleration signals
 
@@ -103,4 +112,4 @@ The names of the variables are listed below
 * "FTT Body Gyroscope Jerk Euclidean norm.mean"   
 * "FTT Body Gyroscope Jerk Euclidean norm.std"
 
-
+ 
