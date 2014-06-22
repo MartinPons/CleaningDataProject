@@ -38,7 +38,7 @@ The Repo contains the following files
 
 - README.txt
 
-- run_analysis.R: R script containing all the transformations carried out in the data in order to obtain the final data set presented in the dataset.csv
+- run_analysis.R: R script containing all the transformations carried out in the data in order to obtain the final data set presented in the dataset.txt
 
 - dataset.txt: the transformed data set with the features mentioned above
 
