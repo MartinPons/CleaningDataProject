@@ -25,7 +25,7 @@ There are five types of variables
 
 * Subject: labeled from 1 to 30
 
-*Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
+* Activity: one of Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying
 
 * Three Axial Raw signals: These include body acceleration and gravity acceleration signals
 
