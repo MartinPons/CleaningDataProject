@@ -28,7 +28,7 @@ All these transformations have been carried out using R software
 HOW TO READ THE DATA IN R
 =========================
 
-The data was created with the write.table R function using the "," character as separactor (csv style)
+The data was created as a txt file with the write.table R function using the "," character as separactor (csv style)
 
 The data can be read using read.csv function
 
