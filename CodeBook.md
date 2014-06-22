@@ -1,15 +1,10 @@
 ## Gyroscope and accelerometer means and standar deviations dataset
 
-The orginial data contains different measures from a gyroscope and accelerometer, from monitoring subjects permorming different activities
+The orginial data from the project monitored manually 30 subjects and six different kinds of activities as the gyroscope and the accelerometer were registering different kinds of signals
 
 The data set presented in dataset.csv consists in a tidy data set with 180 records and 6o 8 columns extracted from 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
-
-The original Data comes a project to predict human activity based on accelerometer and gyroscope signals from an smartphone.
-
-The project monitored manually 30 subjects and six different kinds of activities as the gyroscope and the accelerometer were registrin different kinds of signals
 
 
 ### Units of measure
@@ -112,4 +107,11 @@ The names of the variables are listed below
 * "FTT Body Gyroscope Jerk Euclidean norm.mean"   
 * "FTT Body Gyroscope Jerk Euclidean norm.std"
 
- 
+
+### Transformations using R software
+
+In order to obtain the final data set subsetting and reshaping (using reshape2 package) has been performed to the orgininal data set. 
+
+Concretely, the means for each Subject and activity were computing using melt and dcast functions
+
+mean and sd variables were filtered using regular expressions in R. The variables names were formatting to a easily reading format using the same procedure

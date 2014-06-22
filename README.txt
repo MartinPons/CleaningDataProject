@@ -42,4 +42,18 @@ The Repo contains the following files
 
 - dataset.txt: the transformed data set with the features mentioned above
 
-- CodeBook.md: a codebook descibing the variables, the data and the transformations performed
+- dataset.csv: the same data set with the same format, just with csv extension instead
+
+- CodeBook.md: a codebook descibing the variables, the data, the units, and the transformations performed
+
+
+Transformations
+===============
+
+Several transformations have been performed in order to obtain the final data set subsetting and reshaping (using reshape2 package) has been performed to the orgininal data set. 
+
+Concretely, the means for each Subject and activity were computing using melt and dcast functions
+
+train and test data set were combined using rbind function
+
+mean and sd variables were filtered using regular expressions in R. The variables names were formatting to a easily reading format using the same procedure
