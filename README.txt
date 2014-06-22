@@ -28,7 +28,7 @@ All these transformations have been carried out using R software
 HOW TO READ THE DATA IN R
 =========================
 
-The data was created as a txt file with the write.table R function using the "," character as separactor (csv style)
+The data was created as a txt file with the write.table R function using the "," character as separator (csv style)
 
 The data can be read using read.csv function
 
@@ -42,7 +42,7 @@ The Repo contains the following files
 
 - dataset.txt: the transformed data set with the features mentioned above
 
-- dataset.csv: the same data set with the same format, just with csv extension instead
+- dataset.csv: the same data set in the same format, just with csv extension instead
 
 - CodeBook.md: a codebook descibing the variables, the data, the units, and the transformations performed
 
